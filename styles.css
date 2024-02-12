@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+.price{
+    color: orange;
+}
+.navbar-brand{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-left: 48px;
+}
+i{
+    font-size: 1.2rem;
+    margin: 5px;
+}
+.fa-chevron-down{
+    font-size: 0.8rem;
+}
+.nav-link:hover  {
+    color: #A749FF;
+}
+.slider{
+    position: relative;
+}
+.heading{
+    padding-left: 30%;
+    padding-bottom: 40%;
+    font-size: 2rem;
+    color:black;
+  
+}
+.second{
+    font-weight: bolder;
+    font-size: 2.4rem;
+}
+.third{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.cards{
+    padding-top: 80px;
+}
+
+.line{
+    padding-top: 40px;
+}
+
+.euro{
+    color: #FA6BFF;
+}
+
+.blogi div{
+    padding: 30px;
+}
+.blogi{
+    padding-bottom: 30px;
+    transition: 2s;
+}
+.blogi:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .first {
+      display: none;
+    }
+    .line{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    .container{
+        display: block;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+    }
+    .bloger{
+        display: block;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+   
+    .container{
+        display: block;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+    }
+    .bloger{
+        display: block;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .bloger{
+        display: block;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+ .container{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .bloger{
+        display: block;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+    }
+    
+  }
+  @media only screen and (max-width: 1400px) {
+   
+    .container{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
+
